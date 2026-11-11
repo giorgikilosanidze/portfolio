@@ -57,6 +57,7 @@ export const PROJECTS: Project[] = [
     description:
       "An online sports equipment store with a product catalog, wholesale ordering and a full admin panel for managing products and orders.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    liveUrl: "https://www.jakasports.ge/",
   },
 ];
 
