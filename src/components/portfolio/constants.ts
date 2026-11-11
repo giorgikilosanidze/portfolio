@@ -30,6 +30,13 @@ export const EXPERIENCE: Job[] = [
 
 export const PROJECTS: Project[] = [
   {
+    name: "GORBI",
+    description:
+      "Website for GORBI, a public opinion research and consulting company working across Europe, Eurasia, South East Asia and Africa. Built on my own at Argonaut Research Technologies.",
+    stack: ["Next.js", "React"],
+    liveUrl: "https://gorbi.com/",
+  },
+  {
     name: "CookAI",
     description:
       "Type the ingredients you have and get a full recipe in seconds, with an AI-generated photo of the dish. Save favorites to a personal cookbook and share them with a link.",
