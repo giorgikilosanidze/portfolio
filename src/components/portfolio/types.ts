@@ -5,6 +5,7 @@ export type Job = {
   period: string;
   location: string;
   highlights: string[];
+  note?: string;
 };
 
 export type Project = {

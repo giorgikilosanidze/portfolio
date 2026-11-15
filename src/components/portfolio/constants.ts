@@ -25,6 +25,7 @@ export const EXPERIENCE: Job[] = [
       "Mentored 3 junior developers on best practices and code quality.",
       "Worked closely with design and back-end teams on responsive UI and API integration.",
     ],
+    note: "The Argonaut platform is a private app with no public sign-up, so it can't be viewed from outside. That's by design, not a bug.",
   },
 ];
 

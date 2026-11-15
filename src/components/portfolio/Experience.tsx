@@ -23,6 +23,11 @@ export default function Experience() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+            {job.note && (
+              <p className="mt-4 rounded-lg border border-line bg-card px-4 py-3 text-sm text-muted">
+                🔒 {job.note}
+              </p>
+            )}
           </article>
         ))}
 
