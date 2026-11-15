@@ -13,4 +13,5 @@ export type Project = {
   stack: string[];
   liveUrl?: string;
   codeUrl?: string;
+  inProgress?: boolean;
 };

@@ -5,7 +5,14 @@ type Props = { project: Project };
 export default function ProjectCard({ project }: Props) {
   return (
     <article className="flex flex-col rounded-xl border border-line bg-card p-6 transition hover:border-accent">
-      <h3 className="text-lg font-semibold">{project.name}</h3>
+      <div className="flex flex-wrap items-center gap-2">
+        <h3 className="text-lg font-semibold">{project.name}</h3>
+        {project.inProgress && (
+          <span className="rounded-full border border-amber-500/40 bg-amber-500/10 px-2.5 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-400">
+            Work in progress
+          </span>
+        )}
+      </div>
       <p className="mt-2 flex-1 leading-relaxed text-muted">{project.description}</p>
 
       <ul className="mt-4 flex flex-wrap gap-2">
