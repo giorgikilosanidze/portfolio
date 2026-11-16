@@ -54,6 +54,14 @@ export const PROJECTS: Project[] = [
     codeUrl: "https://github.com/giorgikilosanidze/BeSocial",
   },
   {
+    name: "Purti",
+    description:
+      "An online version of ფურთი, the Georgian card game of elevens. Play with friends in real time with a 4-letter room code (2 or 4 players), or practice against the computer. Available in English, Georgian and French.",
+    stack: ["JavaScript", "HTML & CSS", "Firebase"],
+    liveUrl: "https://giorgikilosanidze.github.io/purti",
+    codeUrl: "https://github.com/giorgikilosanidze/purti",
+  },
+  {
     name: "JAKASPORTS",
     description:
       "An online sports equipment store with a product catalog, wholesale ordering and a full admin panel for managing products and orders. Still in active development.",
